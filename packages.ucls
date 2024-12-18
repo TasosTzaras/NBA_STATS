@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="client" project="2018-19_CSV-Viewer-ClientOnly" 
+    file="/2018-19_CSV-Viewer-ClientOnly/src/client" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="513" y="287"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="client.controllers" project="2018-19_CSV-Viewer-ClientOnly" 
+    file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="120" x="572" y="365"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="server" project="2018-19_CSV-Viewer-ClientOnly" 
+    file="/2018-19_CSV-Viewer-ClientOnly/src/server" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="789" y="292"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="utils" project="2018-19_CSV-Viewer-ClientOnly" 
+    file="/2018-19_CSV-Viewer-ClientOnly/src/utils" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="824" y="412"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="test" project="2018-19_CSV-Viewer-ClientOnly" 
+    file="/2018-19_CSV-Viewer-ClientOnly/src/test" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1006" y="348"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
